@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yeomanTestApp', [])
+angular.module('yeomanTestApp', ['ui', 'LocalStorageModule'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
